@@ -1,6 +1,8 @@
 # PizzaSales
+
  ## Problem Statements
- 
+
+
  ### This dashbaord helps to understand  to analyze key indicates for pizza sales data to gain insights into company's business performance, specially we want to calculate the following metrics.
  
  ## KPI Requirements
@@ -93,3 +95,7 @@ The analysis results are summerized as follows,
   ### TOTAL ORDERS
 
  ### The Brie Carre pizza contribute to minimum Total orders.
+
+
+  😃
+  💻
