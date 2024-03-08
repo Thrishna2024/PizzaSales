@@ -28,3 +28,28 @@
 ### SQL SERVER MANAGEMENT STUDIO-19.0
 ### Version: 2.126.1261.0 64-bit (February, 2024)
 
+
+### DATA SOURCE
+#### Sales data : Primary data used for this analysis is the "pizza_sales.csv" file,conataining detailed information about each sale made by the company.
+
+### Data Cleaning/Prepration
+In the initial data prepration phase we performed the following task
+1. Data loading and inspection
+2. Handling missing value
+3. Data cleaning and formatting.
+
+
+
+### Data Analysis
+
+include some interesting code/feature worked with
+
+------ sql 
+select DATENAME(MONTH, order_date) as Month_Name, COUNT(DISTINCT order_id) as Total_Orders
+from pizza_sales
+GROUP BY DATENAME(MONTH, order_date)------
+
+## Result/Insights
+
+
+   
