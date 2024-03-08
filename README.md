@@ -23,6 +23,8 @@
 #### 7.Bottom 5 Best Seller By Revenue,Total Qunatity and Total Orders
 
 ## SOFTWARE USED
+
+
 ### MS OFFICE / Excel
 ### MS SQL SERVER 19.0
 ### SQL SERVER MANAGEMENT STUDIO-19.0
@@ -30,6 +32,7 @@
 
 
 ### DATA SOURCE
+
 #### Sales data : Primary data used for this analysis is the "pizza_sales.csv" file,conataining detailed information about each sale made by the company.
 
 ### Data Cleaning/Prepration
@@ -49,7 +52,45 @@ select DATENAME(MONTH, order_date) as Month_Name, COUNT(DISTINCT order_id) as To
 from pizza_sales
 GROUP BY DATENAME(MONTH, order_date)------
 
+
+
 ## Result/Insights
+The analysis results are summerized as follows,
 
+  ### BUSIEST DAYS AND TIME
+  
+### 1.Orders are highest on weekend, Friday/Saturday evenings.
+### 2.There are maximum orders from month of July and January.
 
-   
+### SALES PERFORMENCE
+
+### 1.Classic category contributes to maximum Sales & Total orders.
+### 2.Large Size pizza contributes to maximum Sales.
+
+ ### BEST SELLERS
+
+ ### REVENUE
+
+  ### The Thai chicken Pizza contributes to maximum Revenue.
+
+  ### QUANTITY
+  
+  ### The Classic Deluxe pizza contribute to maximum Total Quantities.
+
+  ### TOTAL ORDERS
+
+  ### The Classic Deluxe pizza contribute to maximum Total orders.
+
+  ### WORST SELLERS
+
+  ### REVENUE
+
+  ### The Brie Carre Pizza contributes to minimum Revenue.
+
+  ### QUANTITY
+
+  ### The Brie Carre pizza contribute to minimum Total Quantities.
+
+  ### TOTAL ORDERS
+
+ ### The Brie Carre pizza contribute to minimum Total orders.
