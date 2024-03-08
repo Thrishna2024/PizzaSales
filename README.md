@@ -53,7 +53,6 @@ from pizza_sales
 GROUP BY DATENAME(MONTH, order_date)------
 
 
-
 ## Result/Insights
 The analysis results are summerized as follows,
 
